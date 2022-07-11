@@ -2,17 +2,12 @@ using NUnit.Framework;
 
 namespace ShareConfigsDemo.Core.IntegrationTests
 {
-    public class Tests
+    [SetUpFixture]
+    public class SetUpFixture
     {
-        [SetUp]
-        public void Setup()
+        [OneTimeSetUp]
+        public void OneTimeSetUp()
         {
-        }
-
-        [Test]
-        public void Test1()
-        {
-            Assert.Pass();
         }
     }
 }

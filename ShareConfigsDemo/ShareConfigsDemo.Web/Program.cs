@@ -1,4 +1,9 @@
+using ShareConfigsDemo.Core;
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Configuration.SetBasePath(DirHelper.GetBinRunDir());
+ConfigHelper.AddJsonFiles(builder.Configuration);
 
 // Add services to the container.
 builder.Services.AddRazorPages();

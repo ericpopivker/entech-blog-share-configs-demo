@@ -14,8 +14,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Config", "Config", "{739C7137-3188-4A22-8C09-49D5067AE5BC}"
 	ProjectSection(SolutionItems) = preProject
 		Config\appsettings.Development.json = Config\appsettings.Development.json
+		Config\appsettings.IntegrationTests.json = Config\appsettings.IntegrationTests.json
 		Config\appsettings.json = Config\appsettings.json
 		Config\appsettings.Production.json = Config\appsettings.Production.json
+		Config\appsettings.Staging.json = Config\appsettings.Staging.json
 	EndProjectSection
 EndProject
 Global
