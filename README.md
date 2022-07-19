@@ -20,6 +20,6 @@ The same set of config files is shared between all these projects.
 <br>
 
 
-The blog article is here:
+The blog article which explains how it all works is here:
 
 https://medium.com/entech-solutions/share-config-files-between-web-console-and-other-types-of-net-core-projects-87fa40b4e65e
