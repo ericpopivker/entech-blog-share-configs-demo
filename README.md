@@ -6,7 +6,7 @@ This code demonstrates how to share config files in all projects in same solutio
 <br>
 <br>
 
-The solutions includes the following projects:
+The solution includes the following projects:
 * Console App
 * ASP.NET Core App
 * Integration Tests
